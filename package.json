@@ -1,0 +1,27 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "End-to-end test framework built with **Cypress** and **TypeScript**, testing the [SauceDemo](https://www.saucedemo.com) web application.",
+  "main": "index.js",
+  "scripts": {
+   "cy:open": "cypress open",
+   "cy:run": "cypress run",
+   "cy:run:chrome": "cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veroniks/cypress-e2e.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Veroniks/cypress-e2e/issues"
+  },
+  "homepage": "https://github.com/Veroniks/cypress-e2e#readme",
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "cypress": "^15.11.0",
+    "typescript": "^5.9.3"
+  }
+}
