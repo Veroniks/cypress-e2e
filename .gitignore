@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Cypress generated files
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Allure
+allure-results/
+allure-report/
+
+# Environment variables
+.env
+
+# TypeScript build output
+dist/
+tsconfig.tsbuildinfo
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
